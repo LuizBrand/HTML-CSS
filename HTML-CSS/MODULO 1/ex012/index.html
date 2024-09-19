@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Inserido videos hospedados localmente</h1>
+    <p>Este vídeo está hospeadao no meu próprio servidor</p>
+
+    <!--<video src="midia/meu-video.mp4" width="500" controls></video> -->
+    <!--Ou-->
+    <video width="560" poster="imagem/thumb.png" controls autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="" type="">
+        <source src="" type="">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <!--Essa técnica pode gerar problema para o cliente, porque pode e vão consumir muito tráfego de dados-->
+
+    <h1>Inserindos vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=4__M8vYA13wBPVLH"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>

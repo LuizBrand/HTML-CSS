@@ -1,0 +1,40 @@
+/*Usando id com CSS
+    tudo em HTML é id é #
+    tudo que em HTML é class em CSS é .
+
+    - Class = varios 
+    - id = apenas um (prioridade é do ID quando há class and ID)
+*/
+@charset "UTF-8";
+
+body {
+    background-color: #e0d0b4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #6b6356;
+}
+#principal {
+    text-align: center;
+    background-color: #423d35;
+    color: white;
+}
+h2 {
+    color: #948976;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.basic {
+    color: green;
+}
+.intermed {
+    color: rgb(198, 198, 30);
+}
+.avanced {
+    color: rgb(199, 34, 34);
+}
+.destaque {
+    background-color: rgba(168, 168, 71, 0.523);
+}

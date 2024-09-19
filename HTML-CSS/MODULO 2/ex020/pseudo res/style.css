@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*Os pseudo classes: estados de elemnentos dentro do html
+        pseudo elementos: pode agir nas classes, nos elementos e id
+            SELETORES PERSONALIZADOS
+                #  = id
+                .  = class
+                :  = pseudo-class
+                :: = pseudo element
+                >  = cildren        
+        */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: rgb(20, 220, 80);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+}
+.especial::before {
+    content: "⇒";
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.especial::after {
+    content: "⇐";
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+.especial {
+    background-color: bisque;
+}

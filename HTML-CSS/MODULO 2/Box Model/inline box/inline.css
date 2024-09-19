@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid black;
+    padding: 20px 20px 20px 20px; /*se for tudo igual => padding: 20px, dois valores 10px(top, botton) 20px(left, right)*/
+    margin: 20px auto 40px auto;
+    outline: 5px solid salmon;
+    text-align: center;
+}
+a {
+    border: 5px solid red;
+    padding: 10px;
+}

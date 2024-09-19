@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #23375c;
+    margin: 0px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    color: #23375c;
+}
+nav {
+    background-color: rgba(128, 128, 128, 0.402);
+    padding: 3px;
+    box-shadow: 2px 2px 2px black; /*desl. hori desl.vertical sombra*/
+}
+nav > a {
+    text-decoration: none;
+    color: #23375c;
+    font-weight: bold;
+    margin-right: 2px;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 4px black;
+}
+article {
+    background-color: #6b88d875;
+}
+article > aside {
+    background-color: #0e43d769;
+}
+footer {
+    text-align: center;
+    background-color: #779cff;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+}
