@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    background-image: url(../images/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-attachment: scroll; scrollou o conteudo, o fundo scrolla junto */
+    background-attachment: fixed;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* shorthand
+        background: color > image > position > repeat > attachment
+        background-size: 
+    */
+    /* background: black url(../images/wallpaper002.jpg) center center no-repeat
+        fixed; 
+        background-size: cover;    
+    */
+}
+
+main {
+    background-color: white;
+    max-width: 400px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
