@@ -1,0 +1,33 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative; /* para posicionar o item dentro do espaço do seu parent*/
+}
+
+.item-1 {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: -1;
+}
+
+.item-2 {
+    position: absolute;
+    bottom: 25%;
+    left: -50px;
+}
+
+.item-3 {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.item-4 {
+    position: absolute;
+    bottom: 25%;
+    right: -50px;
+    z-index: -1;
+}

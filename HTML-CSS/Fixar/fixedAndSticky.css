@@ -1,0 +1,22 @@
+.item-1 {
+    position: fixed;
+    top: 50px;
+}
+
+.item-2 {
+    position: fixed;
+    top: 200px;
+}
+
+.item-3 {
+    position: fixed;
+    top: 350px;
+}
+
+.item-5 {
+    position: sticky;
+    top: 50px;
+    /*
+        Reprenta em qual distancia ele tem que estar da margem (neste caso TOP) para começar a seguir o scroll
+    */
+}

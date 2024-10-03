@@ -1,0 +1,15 @@
+.item-1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: -1;
+    /*
+        top e left estao dizendo que o intem 1 esta 100px de distancia do topo e da esquerda do seu parent 
+    */
+}
+
+.item-9 {
+    position: relative;
+    bottom: -50px;
+    right: 50px;
+}
