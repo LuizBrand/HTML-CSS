@@ -1,4 +1,4 @@
-# POSITION ABSOLUTE {
+# POSITION ABSOLUTE:
 
     top, right, bottom, left é possivel utilizar;
 
@@ -8,9 +8,7 @@
 
     Usar absolute quando quiser remover um elemento do Flow original do documento;
 
-}
-
-# STATIC AND RELATIVE {
+# STATIC AND RELATIVE:
 
     static elementes nao tem acesso a top, bottom, right, left, portanto eles ficam estáticos em suas posições;
 
@@ -18,9 +16,7 @@
 
     Usar relative quando quiser posicionar elementos no fluxo normal do documento;
 
-}
-
-# FIXED AND STICKY {
+# FIXED AND STICKY:
 
     FIXED é semelhante ao absolute, ou seja, é utilizado quando desejamos remover o item do flow do documento;
 
@@ -31,5 +27,3 @@
     STICKY funciona semelhante ao positiion relative e fixed;
 
     Um item com position Sticky vai seguir o scroll da pagina mas apenas pelo campo do seu parent
-
-}
