@@ -17,3 +17,7 @@
     - % é relativo ao seu parent;
     - vw: viewport-width
     - vh: viewport-height
+
+# ch:
+
+    - ch: numero de caracteres por linha
